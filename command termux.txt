@@ -1,0 +1,21 @@
+$. pkg update && pkg upgrade
+$. pkg install python
+$. pkg install imagemagick
+$. pkg install bash
+$. pkg install ffmpeg
+$. pkg install nodejs
+$. termux-setup-storage
+$. cd /sdcard/Botz
+$. npm start
+
+mau run 24 jam? Nih command nya
+
+$. npm install -g pm2
+$. cd /sdcard/Botz
+$. pm2 start main.js
+$. pm2 save
+$. pm2 monit
+
+
+🗣️ :Bang Botnya Kok ga bisa Mati? 
+Me: Cara matiinya paksa berhenti aja termux lu
